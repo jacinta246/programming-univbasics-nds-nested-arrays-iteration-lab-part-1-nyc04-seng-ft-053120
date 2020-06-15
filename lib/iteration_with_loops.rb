@@ -6,6 +6,6 @@ when array_of_arrays.even?
   row_index = 0
   p array_of_arrays
   while row_index <src.length do
-    
+    element_index = 
   end
 end
