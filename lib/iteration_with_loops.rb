@@ -2,8 +2,5 @@ def find_even_values(src)
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
   #
   # Output all even values in each nested array
-count = 0
-results_array= [ ]
-while count <src.length do
-src.each do |x|
-  if x %2 
+src.each { |x| puts x if x.even? }
+end
