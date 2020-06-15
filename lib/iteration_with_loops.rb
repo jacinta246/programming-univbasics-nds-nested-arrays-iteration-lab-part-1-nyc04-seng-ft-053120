@@ -9,7 +9,7 @@ while count <src.length do
   inner_count = 0
   while inner_count < src.even[count].length do
     if src
-      p results_array << src.even[count][inner_count]
+      results_array << src.even[count][inner_count]
     inner_count+=1
   end
   count +=1
