@@ -7,8 +7,8 @@ results_array= [ ]
 while count <src.length do
 
   inner_count = 0
-  while inner_count < src.even[count].length do
-    if src
+  while inner_count < src[count].length do
+    if src(&even)
       results_array << src.even[count][inner_count]
     inner_count+=1
   end
